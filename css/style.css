@@ -1,0 +1,78 @@
+
+ul{padding:0px;margin:0px}
+li{list-style-type:none;}
+
+body{}
+.logo>img{width:100%}
+
+.mainMenu{padding: 10px;
+    font-size: 3vw;
+    margin: 0px;
+    color: whitesmoke;
+		}
+.closeMenu{
+	display:none;
+	padding: 10px;
+    font-size: 3vw;
+    margin: 0px;
+    color: whitesmoke;}
+#loginIcon{}
+.menuItems {
+    list-style-type: none;
+    text-align: center;
+    display:inline-flex;
+    font-size:1.1vw
+}
+
+.menuItems li{padding:8px;}
+
+.menuItems li>a{
+    text-decoration:none;
+	color:whitesmoke;
+}
+.menuItems li:hover{
+    background-color:#329c92;
+}
+
+header{background-color:#1e8178;font-family: cursive; }
+#mainmenutoggle{background-color:#1e8178;}
+a{
+    text-decoration:none !important;
+	color:whitesmoke !important;
+}
+.menuitemsdiv{padding-left: 26px;}
+.mainmenuDropdown{padding:0px}
+.cards{display: inline-flex;}
+
+
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100% !important;
+}
+.jumbotron-fluid
+{width:100%}
+
+.carousel{width:100%}
+
+.vincentchanseoptions1{display:inline-flex;}
+.vincentchanseoptions1 li{border-right:1px solid gray;padding:0px 20px 0px 20px;}
+.vincentchanseoptions1 li:last-child{border:none}
+
+.vincentchanseoptions2{display:inline-flex;}
+.vincentchanseoptions2 li{border-right:1px solid gray;padding:0px 20px 0px 20px;}
+.vincentchanseoptions2 li:last-child{border:none}
+
+.vincentchasesection{text-align: center;
+    width: 100%;padding:35px;font-size:10vw}
+
+
+    @media (min-width:320px) and (max-width: 576px)  
+
+    {
+    .logo{width:100%;text-align: center;}
+    .logo>img{width:75%}
+
+    }
+
+   
